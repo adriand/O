@@ -1,0 +1,3 @@
+== O ==
+
+A super simple photo gallery written on Sinatra, that replaces the Pixelpost gallery that generated 500,000 spam comments and crushed the server.
