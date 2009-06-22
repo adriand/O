@@ -16,8 +16,8 @@ body  {
 	font-size:12px;
 	background: #FFFFFF;
 	margin: 0px;
-	color:#6d6d6d;
-	line-height:18px;
+	padding: 20px 0px 0px 20px;
+	color:black;
 }
 
 .spacer {
@@ -39,6 +39,10 @@ select { max-width: 210px; }
 /*------------------------------- layout ------------------------------------- */
 body {
 	text-align: center;
+}
+
+#header {
+	height: 100px;
 }
 
 #container {
