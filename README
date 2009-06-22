@@ -1,3 +1,9 @@
 == O ==
 
 A super simple photo gallery written on Sinatra, that replaces the Pixelpost gallery that generated 500,000 spam comments and crushed the server.
+
+What do I do about thumbnails?  Does this app need a thumbnail generator or not?  It probably needs something...perhaps it can just read photos in a folder, and create thumbnails for any photos that it finds, putting them in a "thumbs" subfolder.  As well, it could scan the thumbs subfolder and if it finds thumbs that do not correspond to a photo, it could delete them.
+
+It really only needs a thumbnail for the particular gallery (folder), though, so perhaps it could just create a single thumb with the name of the gallery.
+
+Start by reading the folder contents and get the galleries that way.
